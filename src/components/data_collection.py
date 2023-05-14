@@ -169,4 +169,4 @@ def get_jobs(keyword, num_jobs, verbose):
 
 if __name__ == '__main__':
     df = get_jobs('data scientist',1000,False)
-    df.to_csv(os.path.join('artifacts','data.csv'),index=False)
+    df.to_csv(os.path.join('notebook','data','data.csv'),index=False)
