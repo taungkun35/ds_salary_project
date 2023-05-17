@@ -1,4 +1,8 @@
 numpy
 pandas
 selenium
+matplotlib
+seaborn
+wordcloud
+nltk
 -e .
